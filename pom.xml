@@ -63,7 +63,9 @@
     <license.title>SonarSource Language Recognizer</license.title>
 
     <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
-
+    <sonar.host.url>http://65.0.98.123:9000/</sonar.host.url>
+    <sonar.login>admin</sonar.login>
+    <sonar.password>1004</sonar.password>
     <sonar.version>3.7</sonar.version>
     <sonar.jacoco.reportPath>../sslr-core/target/jacoco.exec</sonar.jacoco.reportPath>
     <sonar.exclusions>target/generated-sources/**</sonar.exclusions>
